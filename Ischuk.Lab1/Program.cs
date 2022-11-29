@@ -10,6 +10,7 @@
             while (!isNumber)
             {
                 Console.Write("Введите число A: ");
+                Console.Write("Введите число A: ");
                 isNumber = double.TryParse(Console.ReadLine(), out a);
                 if (!isNumber)
                 {
